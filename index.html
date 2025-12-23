@@ -1,24 +1,123 @@
 <!DOCTYPE html>
-<body style = background-color:#FFCFF9;>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmett's Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Emmett Catanese</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<h1 style = font-size:45px;> Emmett Catanese </h1>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Emmett</h1>
+            <p>A data science student passionate about solving the world's problems with data and modern technology.</p>
+            <a href="#projects" class="cta-button">Check out my work</a>
+        </div>
+    </section>
 
-<p><img src=me.JPG width = 225 height = 300></p>
+    <section id="projects">
+        <div class="section-content-wrapper">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+        </div>
+        <div class="projects-carousel fade-in">
+            <div class="carousel-container" id="carousel-container">
+                <div class="project-card">
+                    <div class="project-icon ods">🏫</div>
+                    <h3>Open Data Set</h3>
+                    <p>Utilizing Google DocumentAI I parsed Common Data Set PDFs and compiled data from the nations top 200 schools in an easily accessable format, increasing accessability to previously hard to analyze data.</p>
+                    <a href="#" class="project-link projects-link">Visit Project Page →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon traffic">🚦</div>
+                    <h3>Traffic Weather</h3>
+                    <p>Compiled data from a variety of sources on almost a decade of traffic data as well as weather data to help analyze traffic accidents in relation to weather and other conditions. This project is a little unfinished and I hope to do more analysis.</p>
+                    <a href="#" class="project-link projects-link">Visit Project Page →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon spotify">🎵</div>
+                    <h3>Spotify Top 50 Search</h3>
+                    <p>You can easily search an artist to see if any of their songs are on the T50 list. This app was my AP CSP create task. It was made in Code.org which has a watered down version of JavaScript, as well as I utilized their data set.</p>
+                    <a href="#" class="project-link projects-link">Visit Project Page →</a>
+                </div>
+            </div>
+            <div class="carousel-nav">
+                <button class="carousel-btn" id="prev-btn">‹</button>
+                <div class="carousel-dots" id="carousel-dots"></div>
+                <button class="carousel-btn" id="next-btn">›</button>
+            </div>
+        </div>
+    </section>
 
-<p> I am from New York City 
-<br> I love baking, sailing, biking and hiking
-<br> I also love data science </p>
+    <section id="tools">
+        <div class="section-content-wrapper">
+            <h2 class="section-title fade-in">Handy Tools</h2>
+        </div>
+        <div class="projects-carousel fade-in">
+            <div class="carousel-container" id="tools-carousel-container">
+                <div class="project-card">
+                    <div class="project-icon archive">🖇️</div>
+                    <h3>Easy Archive</h3>
+                    <p>Little chrome extension to quickily take you to the archive.ph copy of the url you have open.</p>
+                    <a href="#" class="project-link tool-link">Visit Project Page →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon litematic">🔀</div>
+                    <h3>Litematic Replacer</h3>
+                    <p>Tool for Litematic files to replace all blocks of one type to another while maintaining their state.</p>
+                    <a href="#" class="project-link tool-link">Visit Project Page →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon sailing">⛵️</div>
+                    <h3>Sailing Scheduler</h3>
+                    <p>Custom app I built for my position at my sailing club to resolve scheduling conflicts and optimize equipment use.</p>
+                    <a href="#" class="project-link tool-link">Visit Project Page →</a>
+                </div>
+            </div>
+            <div class="carousel-nav">
+                <button class="carousel-btn" id="tools-prev-btn">‹</button>
+                <div class="carousel-dots" id="tools-carousel-dots"></div>
+                <button class="carousel-btn" id="tools-next-btn">›</button>
+            </div>
+        </div>
+    </section>
 
-<h2> My favorite artists are:</h2>
-<ol>
-    <li> Taylor Swift </li>
-    <li> The Band Camino </li>
-    <li> Food house </li>
-    <li> Counting crows </li>
-    <li> Zach Bryan </li>
-</ol>
+    <section id="about">
+        <div class="section-content-wrapper">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about fade-in">
+                <div class="about-avatar">
+                    <img src="https://avatars.githubusercontent.com/u/233302488?v=4" alt="Emmett Catanese">
+                </div>
+                <h2>Emmett</h2>
+                <p>I'm a freshman at the Syracuse University School of Information Studies. For a long time, I have been interested in the use of technology to improve our daily lives. More recently, I have become more interested in how we can use data to solve social issues. So many large problems can have solutions rooted in data (and ultimately fact) based changes. My goal is to help solve the world's problems with data while maintaining humanity and kindness for all.  </p>
+                <p> In my free time I like to go outside and bike, hike, and sail. I also love baking and cooking. I'm a big fan of electric cars as well as trains!</p>
+            </div>
+        </div>
+    </section>
 
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/EmmettCatanese">GitHub</a>
+                <a href="https://www.linkedin.com/in/emmettcatanese/">LinkedIn</a>
+                <a href="mailto:me@emmettcatanese.com">Email</a>
+            </div>
+            <p>Coded from scratch with ❤️ by me.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
