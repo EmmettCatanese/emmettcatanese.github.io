@@ -288,6 +288,10 @@ section {
     background: linear-gradient(135deg, #1db10d 0%, #1ED760 100%);
 }
 
+.project-icon.baseball {
+    background: linear-gradient(135deg, #e2ad75 0%, #603404 100%);
+}
+
 .project-icon.archive {
     background: linear-gradient(135deg, #B4000F 0%, #1C2D41 100%);
 }
@@ -298,6 +302,10 @@ section {
 
 .project-icon.sailing {
     background: linear-gradient(135deg, #0aecf8 0%, #2615e5 100%);
+}
+
+.project-icon.tracker {
+    background: linear-gradient(135deg, #0b1516 0%, #5b5970 100%);
 }
 
 .project-card h3 {

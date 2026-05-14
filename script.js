@@ -124,6 +124,7 @@ document.querySelectorAll('.projects-link').forEach((link, index) => {
         const projectUrls = [
             'https://github.com/EmmettCatanese/OpenDataSet',
             'https://github.com/EmmettCatanese/NYC-Crash-Weather-Data',
+            'https://emmettcatanese.com/IST256-Demo/lab/index.html',
             'https://studio.code.org/projects/applab/HWCRc2p-y4xCfnd05Bd9i4uv826_umOru2SaHzaA9y8',
         ];
         
@@ -143,6 +144,7 @@ document.querySelectorAll('.tool-link').forEach((link, index) => {
             'https://github.com/EmmettCatanese/Easy-Archive',
             'https://emmettcatanese.github.io/Litematic-Changer/',
             'https://emmettcatanese.github.io/Boat-Optimizer/',
+            'https://tt.emmettcatanese.com/',
         ];
         
         if (toolUrls[index]) {
